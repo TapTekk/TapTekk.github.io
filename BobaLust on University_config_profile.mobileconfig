@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDisplayName</key>
+                <str>Wi-Fi</str>
+                <key>PayloadIdentifier</key>
+                <str>com.example.profile.BobaLust on University.wifi</str>
+                <key>PayloadType</key>
+                <str>com.apple.wifi.managed</str>
+                <key>PayloadUUID</key>
+                <str>6c712a06-07c7-4d77-b0e8-6cbf60822831</str>
+                <key>PayloadVersion</key>
+                <int>1</int>
+                <key>SSID_STR</key>
+                <str>BobaLust-2.4</str>
+                <key>AutoJoin</key>
+                <bool>True</bool>
+                <key>EncryptionType</key>
+                <str>WPA</str>
+                <key>Password</key>
+                <str>bobalust4553</str>
+            </dict>
+        </array>
+        <key>PayloadDisplayName</key>
+        <str>BobaLust on University Wi-Fi Configuration</str>
+        <key>PayloadIdentifier</key>
+        <str>com.example.profile.BobaLust on University</str>
+        <key>PayloadOrganization</key>
+        <str>Example Organization</str>
+        <key>PayloadRemovalDisallowed</key>
+        <bool>False</bool>
+        <key>PayloadType</key>
+        <str>Configuration</str>
+        <key>PayloadUUID</key>
+        <str>d5362f8e-7f36-46f8-b3f0-f29911eda6db</str>
+        <key>PayloadVersion</key>
+        <int>1</int>
+    </dict>
+</plist>
