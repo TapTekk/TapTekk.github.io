@@ -15,7 +15,8 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f932b7;
+            color: white;
+            /* background-color: #f932b7; */
         }
         .download-button {
             display: inline-block;
@@ -44,9 +45,30 @@
    width:100%;
 
         }
+@keyframes movingGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html {
+  background: linear-gradient(135deg, #ff0099,  #f597d9, #f70afb, #ffa1ab);
+  min-height: 100%;
+  background-size: 200% 200%;
+  animation: movingGradient 10s ease infinite;
+}
+
+
     </style>
 </head>
 <body>
+    
     <div>
         <h1 style="text-align: center;">Welcome to BobaLust on University</h1>
     </div>
@@ -54,16 +76,10 @@
         <h2 style="text-align: center;">Download the wifi configuration below.</h2>
     </div>
 
-    <a class="download-button" href="BobaLust_config_profile.mobileconfig" download="filename.ext">Download Configuration</a>
-            <!-- <div class="instructions">
-        <h3>iPhone Connection Instructions</h3>
-        <div class="step1"></div>
-        <div class="step2"></div>
-        <div class="step3"></div>
-        <div class="step4"></div>
-        <div class="step5"></div>
-        <div class="step6"></div>
-    </div> -->
+    <a class="download-button" href="BobaLust_config_profile.mBobaLust on University_config_profile.mobileconfigobileconfig" download="filename.ext">Download Configuration</a>
+            <div class="instructions">
+                
+    </div>
     <div class="CTA">
         <h4 style="text-align: center;">Effortless connectivity is just a tap away! Visit <a class="link" href="https://taptekk.com/">TapTekk</a> today.</h4>
     </div>
